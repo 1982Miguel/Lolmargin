@@ -1,0 +1,47 @@
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#image-container > div {
+    margin: 10px;
+}
+
+#map-container {
+    position: relative;
+    width: 1280px;
+    height: 1280px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+.grid-square {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.valid {
+    background-color: rgba(18, 146, 50, 0.432);
+}
+
+.selected {
+    background-color: rgba(8, 10, 8, 0.315);
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#controls button {
+    margin: 0 10px;
+}
